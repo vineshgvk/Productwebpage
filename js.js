@@ -21,7 +21,7 @@ function login()
         {
           b = username.substr(5, 6);
             var id = b;
-        if(username=="demouser1@gmail.com""){
+        if(username=="demouser1@gmail.com"){
           
          //passing user and account objects:
 aptrinsic("identify",
