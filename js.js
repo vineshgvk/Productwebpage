@@ -4,7 +4,7 @@
       (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
     var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
     var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
-  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-EMCLD0J9SEPQ-2");
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-E26WCXZROOUQ-2");
 
 function login()
     {
@@ -17,11 +17,11 @@ function login()
         a4: "PX_Company-4"
 
     }
-        if(username=="shivani.reddy00@gmail.com"||username=="scheemala@gainsight.com" ||username=="demouser99@gmail.com" &&password=="admin")
+        if(username=="demouser1@gmail.com"||username=="demouser2@gainsight.com" ||username=="demouser3@gmail.com")
         {
-          b = username.substr(8, 6);
+          b = username.substr(5, 6);
             var id = b;
-        if(username=="shivani.reddy00@gmail.com"){
+        if(username=="demouser1@gmail.com""){
           
          //passing user and account objects:
 aptrinsic("identify",
@@ -39,7 +39,7 @@ aptrinsic("identify",
     "id": myaccount.a4, //Required
     "name": myaccount.a4,
  });
-        }else if(username=="scheemala@gainsight.com"){
+        }else if(username=="demouser2@gainsight.com"){
           
          //passing user and account objects:
 aptrinsic("identify",
@@ -54,7 +54,7 @@ aptrinsic("identify",
     "name": myaccount.a3,
  });
         }
-          else if(username=="demouser99@gmail.com"){
+          else if(username=="demouser3@gmail.com"){
           
          //passing user and account objects:
 aptrinsic("identify",
