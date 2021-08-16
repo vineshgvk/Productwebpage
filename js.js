@@ -91,7 +91,8 @@ aptrinsic("identify",
 
             alert("Logged in user id :" + b);
             //window.open("/HTML/home.html");
-            window.location = "https://vineshgvk.github.io/px/home.html"; //https://vineshgvk.github.io/Productwebpage/login.html
+           // window.location = "https://vineshgvk.github.io/px/home.html"; //https://vineshgvk.github.io/Productwebpage/login.html
+            window.location = "https://vineshgvk.github.io/Productwebpage/login.html";
       
             return false;
     }
